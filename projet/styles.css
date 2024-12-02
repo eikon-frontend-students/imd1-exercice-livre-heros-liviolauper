@@ -1,0 +1,50 @@
+body {
+  max-width: 600px;
+  padding: 20px;
+  font-family: luminari;
+  background-color: #000000;
+  color: #e0e0e0;
+  margin: 0 auto;
+}
+
+img {
+  /* 💡 Ces 2 lignes doivent rester pour pouvoir ensuite centrer 
+    avec des marges automatiques et pour que la taille maximum 
+    (que vous devez ajouter) se comporte correctement. 
+  */
+  align-self: center;
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  border: #624a17 6px solid;
+}
+
+h1 {
+  color: #ffea08;
+  font-size: 56px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  color: aqua;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+a {
+  display: inline;
+  background-color: #1e1e1e;
+  padding: 20px;
+  margin: 65px;
+  border: 5px #333 solid;
+  font-family: luminari;
+  font-size: 32px;
+  color: #ffffff;
+  text-decoration: solid;
+}
