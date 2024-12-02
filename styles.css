@@ -47,6 +47,6 @@ h1 {
 .txt {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 12px;
 }
