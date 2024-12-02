@@ -1,10 +1,45 @@
 body {
   background-color: #1a1a1a;
-  color: white;
+  max-width: 600px;
+  max-height: 300px;
+  font-family: luminari;
+}
+img {
+  max-width: 280px;
+  max-height: 280px;
+  border: solid 2.5px rgb(6, 82, 82);
+  border-radius: 2.5px;
+  margin: 5px;
+}
+#frame {
+  max-width: 600px;
+  max-height: 300px;
+  border: 20px solid rgb(0, 0, 0);
+  padding: 20px 22px 30px 36px;
+  border-image: url("/projet/images/cadre.png") 260 / 2px 2px 2px 2px round;
+  border-image-width: 270px;
+}
+
+.inside {
+  background-color: rgb(10, 169, 169);
+  border: solid 4px rgb(6, 82, 82);
+  border-radius: 4px;
+  max-width: 478px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: row;
 }
 
 a {
-  color: white;
+  color: black;
+  text-decoration: none;
 }
 
-/* 🦊 Compléter les styles de votre teaser  */
+h3 {
+  color: rgb(235, 220, 9);
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+}
