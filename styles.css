@@ -36,10 +36,17 @@ a {
 }
 
 h3 {
-  color: rgb(235, 220, 9);
+  color: rgb(235, 201, 9);
   font-size: 16px;
 }
 
 h1 {
   font-size: 30px;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
 }
